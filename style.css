@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(56, 164, 184);
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    color: #aeaeae;
+  }
