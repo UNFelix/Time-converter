@@ -10,7 +10,8 @@ ul {
   margin: 0;
 }
 
-input {
+input,
+button {
   border-radius: 7px;
   border: none;
   cursor: pointer;
@@ -43,4 +44,9 @@ h1 {
   width: 100%;
   padding: 5px;
   max-width: 400px;
+}
+
+.submit-btn {
+  padding: 5px;
+  outline: none;
 }
