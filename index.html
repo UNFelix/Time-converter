@@ -14,14 +14,14 @@
         <div class="input-block">
           <label class="input-block_label" for="Seconds Value">
             Type seconds here
+            <input
+              class="input-block_input"
+              placeholder="Type seconds here"
+              type="number"
+              onkeyup="success()"
+            />
+            <button class="submit-btn" disabled>Submit</button>
           </label>
-          <input
-            class="input-block_input"
-            placeholder="Type seconds here"
-            type="number"
-            onkeyup="success()"
-          />
-          <button class="submit-btn" disabled>Submit</button>
         </div>
         <div class="result-block">
           Your result is: <span class="result">Please type your number</span>

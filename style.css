@@ -12,6 +12,8 @@ ul {
 
 input,
 button {
+  padding: 15px 10px;
+  font-size: 22px;
   border-radius: 7px;
   border: none;
   cursor: pointer;
@@ -36,17 +38,43 @@ h1 {
 }
 
 .input-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 20px 0;
   width: 100%;
 }
 
-.input-block_input {
+.input-block_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
-  padding: 5px;
+  max-width: 600px;
+}
+
+.input-block_input {
+  margin: 20px 0;
+  width: 100%;
   max-width: 400px;
 }
 
 .submit-btn {
-  padding: 5px;
+  color: #c7c4c4;
+  background-color: #1d6466;
+  font-weight: 800;
   outline: none;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.result {
+  color: #1d6466;
+  font-size: 20px;
+  font-weight: 600;
 }
